@@ -7,7 +7,7 @@ const ResetPassword = () => {
 
     const handleReset = () => {
         if (newPassword === confirmPassword) {
-            // Backend password reset logic will go here
+            
             setMessage('Password reset successfully!');
         } else {
             setMessage('Passwords do not match!');
