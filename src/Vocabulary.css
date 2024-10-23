@@ -1,0 +1,29 @@
+.vocabulary-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.vocabulary-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #3a3a3a;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.2em;
+    color: #555;
+}
