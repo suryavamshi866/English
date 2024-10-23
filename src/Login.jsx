@@ -13,7 +13,7 @@ const Login = ({ onLogin }) => {
         console.log('Password:', password);
 
         if (rollNo && password) {
-            // Check if both roll number and password match the example
+           
             if (rollNo === validCredentials && password === validCredentials) {
                 onLogin();
                 navigate('/');
